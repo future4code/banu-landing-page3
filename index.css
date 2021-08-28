@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+
+}
+
+div {
+    display: inline-flex;
+
+}
+
+nav ul {
+    display: inline-flex;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: stretch;
+    top: 0px;
+    position: relative;
+    margin: 25px 1.5rem;
+    background-color: black;
+    color: whitesmoke;
+}
