@@ -1,93 +1,93 @@
 * {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+}
+.cabecalho {
+  font-size: 22px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  
+}
+.cabecalho, .rodape {
+  height: auto;
+  display: flex;    
+  flex-wrap: wrap;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-color: #1F1F24;
+  color: white;
 
 }
 
-div {
-    display: inline-flex;
+.rodape {
+  font-size: 16px;
+  padding: 60px 55px;
 
 }
 
-nav ul {
-    display: inline-table;
-    
-    margin: 25px 1.5rem;
-    background-color: rgb(206, 247, 25);
-    color: rgb(182, 28, 28);
-    list-style: none;
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.rodape .blocoRodape {
+  width: 33.3333%;
 
 }
 
-nav {
-    padding: 5px 40px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+.rodape .blocoRodape .tituloRodape {
+  font-weight: bold;
+}
 
-  /* nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  } */
+.logo {
+  width: 100px;
+  height: auto;
+}
 
-  nav ul li {
-    padding: 15px 0;
-    cursor: pointer;
-    font-style: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    top: 0px;
-    position: relative;
+.login {
+  border: none;
+  background-color: #1F1F24;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 7px 15px;
+  border: 1px solid white;
+  cursor: pointer;
+}
 
-  }
+.login:hover {
+  color:#D2C2B0
+}
 
-  nav ul li.items {
-    position: relative;
-    width: auto;
-    margin: 0 16px;
-    text-align: center;
-  }
+.login:active {
+  border-color: beige;
+  background-color: bisque;
+}
 
-  nav ul li.items:after {
-    position: absolute;
-    content: '';
-    left: 0;
-    bottom: 5px;
-    height: 2px;
-    width: 100%;
-    background: #8a8d8d;
-    opacity: 0;
-    transition: all 0.2s linear;
-  }
+.cabecalho .menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-self: center;
 
-  nav ul li.items:hover:after {
-    opacity: 1;
-    bottom: 8px;
-  }
+}
 
-  nav ul li.logo {
-    flex: 1;
-    color: black;
-    font-size: 32px;
-    font-weight: 600;
-    cursor: default;
-    user-select: none;
-  }
+.cabecalho .menu li {
+  list-style-type: none;
+}
 
-  nav ul li a {
-    color: black;
-    font-size: 26px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: .4s;
-  }
+.cabecalho .menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 55px;
+  border: 1px;  
+  
+}
 
-  nav ul li:hover a {
-    color: #8a8d8d;
-  }
+.cabecalho .menu li a:hover {
+  color: #D2C2B0 ;
+  
+}
+
+.section-img {
+  width: 100%;
+}
+
+.section-img img{
+  width: 100%;
+  height: auto;
+}
