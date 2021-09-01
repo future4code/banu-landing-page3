@@ -1,32 +1,31 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
 }
 .cabecalho {
   font-size: 22px;
   padding: 20px 40px;
   text-transform: uppercase;
-  
 }
-.cabecalho, .rodape {
+.cabecalho,
+.rodape {
   height: auto;
-  display: flex;    
+  display: flex;
   flex-wrap: wrap;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-color: #1F1F24;
+  background-color: #1f1f24;
   color: white;
-
 }
 
 .rodape {
   font-size: 16px;
   padding: 60px 55px;
-
 }
 
 .rodape .blocoRodape {
   width: 33.3333%;
-
 }
 
 .rodape .blocoRodape .tituloRodape {
@@ -40,7 +39,7 @@
 
 .login {
   border: none;
-  background-color: #1F1F24;
+  background-color: #1f1f24;
   color: white;
   text-transform: uppercase;
   font-size: 18px;
@@ -50,7 +49,7 @@
 }
 
 .login:hover {
-  color:#D2C2B0
+  color: #d2c2b0;
 }
 
 .login:active {
@@ -63,7 +62,6 @@
   flex-direction: row;
   margin: 0 auto;
   align-self: center;
-
 }
 
 .cabecalho .menu li {
@@ -74,20 +72,93 @@
   color: white;
   text-decoration: none;
   padding: 5px 55px;
-  border: 1px;  
-  
+  border: 1px;
 }
 
 .cabecalho .menu li a:hover {
-  color: #D2C2B0 ;
-  
+  color: #d2c2b0;
 }
 
 .section-img {
   width: 100%;
 }
 
-.section-img img{
+.section-img img {
   width: 100%;
   height: auto;
+}
+
+/************
+
+PÁGINA DE CADASTRO
+
+ *************/
+#cadastro{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("img/projeto10.jpg");
+  background-size: cover;
+
+}
+.cadastroForm {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 70%;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #1f1f241f;
+  border-end-end-radius: 20px;
+  border-start-start-radius: 20px;
+  background-color: white;
+}
+
+#formCadastro {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  min-width: fit-content;
+}
+
+#formCadastro > div {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.inputForm {
+  width: 60%;
+  border: none;
+  text-align: center;
+}
+
+.inputForm:focus {
+  outline: none;
+}
+
+.enviar{
+  width: 70px;
+  height: 30px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+  align-self: flex-end;
+  background-color: #1f1f24;
+  color: white;
+}
+
+.enviar:hover{
+  background-color: #d2c2b0;
+  color: black;
+  transition: 0.3s;
+}
+
+.enviar:active{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
 }
