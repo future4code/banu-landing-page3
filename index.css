@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
 .cabecalho {
   font-size: 22px;
   padding: 20px 40px;
   text-transform: uppercase;
-  
 }
+
 .cabecalho, .rodape {
   height: auto;
   display: flex;    
@@ -15,7 +16,6 @@
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-color: #1F1F24;
   color: white;
-
 }
 
 .rodape {
@@ -85,9 +85,49 @@
 
 .section-img {
   width: 100%;
+  height: 100%;
+  background:url(‘img/projeto9.jpg’);
+}
+
+.texto {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  color:#fff;
+  text-align: center;
+  top: 77px;
+  width: 100%;
+  line-height: 30px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 .section-img img{
   width: 100%;
   height: auto;
+}
+
+.redesSociais {
+  height: 35px;
+  width: auto;
+  padding: 25px 10px;
+}
+
+.endereco {
+  width: 100%;
+  height: 35px;
+}
+
+.imgEnd {
+  width: auto;
+  height: 200px;
+  padding: 20px 0px;
 }
