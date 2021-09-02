@@ -11,15 +11,15 @@ function Cadastrar() {
     .getRandomValues(seedPassword)
     .join("")
     .toString();
+
   localStorage.setItem(`PASS${email}`, generatePass);
   alert(`Sua senha é ${generatePass}. Guarde-a com segurança`);
-  window.location.href = "/index.html";
+  window.location.href = "index.html";
 }
 
 /* 
 login
 chave: exemplo@email.comId  valor: exemplo@email.com
 senha: emailPass            valor: generatePass
-
 
 */

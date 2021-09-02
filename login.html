@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/login.css" />
+    <script src="js/login.js"></script>
+    <title>Upfour</title>
+  </head>
+  <body>
+    <nav class="cabecalho">
+      <img src="img/photo_2021-08-29_21-18-47.jpg" class="logo" />
+      <ul class="menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="./index.html">Quem somos</a></li>
+        <li><a href="/index.html">Como funciona</a></li>
+        <li><a href="/cadastro.html">Cadastro</a></li>
+      </ul>
+      <button id='botao-login-header' class="login">Login</button>
+    </nav>
+    <!-- <img src="img/emprestimo-negativado.jpg" class="section-img"> -->
+    <div id="login">
+        
+        <div id="area-de-login">
+            <div id='botao-login'>
+
+                <input onclick="Logar()" class='botao-login' type="submit" value='entrar'></input>
+            </div>
+            
+            <form action="" id="form-de-login">
+          <div>
+            <label for="loginEmail"> email cadastrado:</label>
+         
+            <input
+              type="email"
+              placeholder="exemplo@email.com"
+              id="loginEmail"
+            />
+          </div>
+          <div>
+            <label for="senha">senha: </label>
+            
+            <input type="password" placeholder="********" id="senha" />
+          </div>
+         
+        </form>
+  
+
+      </div>
+    </div>
+    <footer class="rodape">
+      <div class="blocoRodape">
+        <p class="tituloRodape">Redes Sociais</p>
+      </div>
+      <div class="blocoRodape">
+        <p class="tituloRodape">Atendimento</p>
+      </div>
+      <div class="blocoRodape">
+        <p class="tituloRodape">Endereço</p>
+      </div>
+    </footer>
+  </body>
+</html>
