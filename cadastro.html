@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/cadastro.css" />
+    <script src="js/cadastro.js" defer></script>
+    <title>Upfour</title>
+  </head>
+  <body>
+    <nav class="cabecalho">
+      <img src="img/photo_2021-08-29_21-18-47.jpg" class="logo" />
+      <ul class="menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="./quemSomos.html">Quem somos</a></li>
+        <li><a href="/index.html">Como funciona</a></li>
+        <li><a href="">Cadastro</a></li>
+      </ul>
+      <button id='button-header' onclick="window.location.href='login.html' " class="login">
+        Login
+      </button>
+      <button id='button-header-logout' onclick="Logout()" class="login">Logout</button>
+
+    </nav>
+    <!-- <img src="img/emprestimo-negativado.jpg" class="section-img"> -->
+    <div id="cadastro">
+      <div class="cadastroForm">
+        <form name="form_cadastro" id="formCadastro">
+          <h1>Cadastre-se conosco</h1>
+          <div>
+            <label for="nameId"> Nome:</label>
+            <input
+              type="name"
+              id="nameId"
+              placeholder="Priscila Sousa"
+              required="required"
+              class="inputForm"
+            />
+          </div>
+          <hr />
+          <div>
+            <label for="telephoneId"> Telefone: </label>
+            <input
+              type="tel"
+              id="telephoneId"
+              placeholder="(xx) x xxxxx - xxxx"
+              class="inputForm"
+            />
+          </div>
+          <hr />
+          <div>
+            <label for="emailId"> E-mail: </label>
+            <input
+              type="email"
+              id="emailId"
+              placeholder="contato@email.com"
+              required="required"
+              class="inputForm"
+            />
+          </div>
+          <hr />
+        </form>
+        <input
+          type="submit"
+          class="enviar"
+          onclick="Cadastrar()"
+          value="enviar"
+        />
+      </div>
+    </div>
+    <footer class="rodape">
+      <div class="blocoRodape">
+        <p class="tituloRodape">Redes Sociais</p>
+      </div>
+      <div class="blocoRodape">
+        <p class="tituloRodape">Atendimento</p>
+      </div>
+      <div class="blocoRodape">
+        <p class="tituloRodape">Endereço</p>
+      </div>
+    </footer>
+  </body>
+</html>

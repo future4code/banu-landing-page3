@@ -1,32 +1,65 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
 }
 
+<<<<<<< HEAD:index.css
+=======
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+  }
+  @-moz-keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+  }
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+.fadeIn {
+  -webkit-animation: fadeIn 1s ease-in-out;
+  -moz-animation: fadeIn 1s ease-in-out;
+  -o-animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
+  }
+
+
+>>>>>>> carlosVinicius:styles/index.css
 .cabecalho {
   font-size: 22px;
   padding: 20px 40px;
   text-transform: uppercase;
 }
+<<<<<<< HEAD:index.css
 
 .cabecalho, .rodape {
+=======
+.cabecalho,
+.rodape {
+>>>>>>> carlosVinicius:styles/index.css
   height: auto;
-  display: flex;    
+  display: flex;
   flex-wrap: wrap;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-color: #1F1F24;
+  background-color: #1f1f24;
   color: white;
 }
 
 .rodape {
   font-size: 16px;
   padding: 60px 55px;
-
 }
 
 .rodape .blocoRodape {
   width: 33.3333%;
-
 }
 
 .rodape .blocoRodape .tituloRodape {
@@ -40,7 +73,7 @@
 
 .login {
   border: none;
-  background-color: #1F1F24;
+  background-color: #1f1f24;
   color: white;
   text-transform: uppercase;
   font-size: 18px;
@@ -50,7 +83,7 @@
 }
 
 .login:hover {
-  color:#D2C2B0
+  color: #d2c2b0;
 }
 
 .login:active {
@@ -63,7 +96,6 @@
   flex-direction: row;
   margin: 0 auto;
   align-self: center;
-
 }
 
 .cabecalho .menu li {
@@ -74,13 +106,11 @@
   color: white;
   text-decoration: none;
   padding: 5px 55px;
-  border: 1px;  
-  
+  border: 1px;
 }
 
 .cabecalho .menu li a:hover {
-  color: #D2C2B0 ;
-  
+  color: #d2c2b0;
 }
 
 .section-img {
@@ -110,9 +140,10 @@ h2 {
   font-weight: bold;
 }
 
-.section-img img{
+.section-img img {
   width: 100%;
   height: auto;
+<<<<<<< HEAD:index.css
 }
 
 .redesSociais {
@@ -131,3 +162,6 @@ h2 {
   height: 200px;
   padding: 20px 0px;
 }
+=======
+}
+>>>>>>> carlosVinicius:styles/index.css

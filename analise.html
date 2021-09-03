@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/analise.css" />
+    <script src="js/analise.js" defer></script>
+    <title>Upfour</title>
+  </head>
+  <body class='fadeIn'>
+    <nav class="cabecalho">
+      <img src="img/photo_2021-08-29_21-18-47.jpg" class="logo" />
+      <ul class="menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="./index.html">Quem somos</a></li>
+        <li><a href="/index.html">Como funciona</a></li>
+        <li><a href="/cadastro.html">Cadastro</a></li>
+      </ul>
+      <button id='button-header-logout' onclick="Logout()" class="login">Logout</button>
+
+    </nav>
+    <!-- <img src="img/emprestimo-negativado.jpg" class="section-img"> -->
+    <div id="analise">
+      <div id="area-de-analise">
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+          </tr>
+          <tr>
+            <td id="TDnome"></td>
+            <td id="TDemail"></td>
+            <td id="TDTelefone"></td>
+          </tr>
+        </table>
+
+        <div class="situacao">
+            <h1 id='h1Nome'></h1>
+            <p>Após contato da nossa equipe, os seus dados ainda estão em análise e em breve <br>divulgaremos nesta mesma página
+                se conseguimos disponibilizar o serviço solicitado. Aguente firme!<br><br>Falta só um pouco.
+            </p>
+            <br><br><br>
+            <h3>Conte conosco!</h3>
+        </div>
+
+        <div id='banner-situacao'>Em análise</div>
+      </div>
+    </div>
+    <footer class="rodape">
+      <div class="blocoRodape">
+        <p class="tituloRodape">Redes Sociais</p>
+      </div>
+      <div class="blocoRodape">
+        <p class="tituloRodape">Atendimento</p>
+      </div>
+      <div class="blocoRodape">
+        <p class="tituloRodape">Endereço</p>
+      </div>
+    </footer>
+  </body>
+</html>
