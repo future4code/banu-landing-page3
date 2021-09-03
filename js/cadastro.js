@@ -1,10 +1,29 @@
+var logado = localStorage.getItem("logado")
+if (logado){
+    document.getElementById("button-header").style.display = 'none'
+}
+else{
+    document.getElementById("button-header-logout").style.display = 'none'
+}
+
+
+function Logout(){
+    localStorage.removeItem("logado", false)
+    document.getElementById("button-header").style.removeProperty('display')
+    document.getElementById("button-header-logout").style.display = 'none'
+    alert("Volte sempre!")
+
+}
+
+
+
 function Cadastrar() {
   let email = document.getElementById("emailId").value;
   let nome = document.getElementById("nameId").value;
   let telefone = document.getElementById("telephoneId").value;
-  localStorage.setItem(`ID${email}`, email);
-  localStorage.setItem(`ID${nome}`, nome);
-  localStorage.setItem(`ID${telefone}`, telefone);
+  localStorage.setItem(`email`, email);
+  localStorage.setItem(`nome`, nome);
+  localStorage.setItem(`telefone`, telefone);
 
   const seedPassword = new Uint8Array(3);
   let generatePass = window.crypto
@@ -12,9 +31,9 @@ function Cadastrar() {
     .join("")
     .toString();
 
-  localStorage.setItem(`PASS${email}`, generatePass);
+  localStorage.setItem(`pass`, generatePass);
   alert(`Sua senha é ${generatePass}. Guarde-a com segurança`);
-  window.location.href = "index.html";
+  window.location.href = "login.html";
 }
 
 /* 

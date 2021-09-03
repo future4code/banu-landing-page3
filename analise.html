@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/login.css" />
-    <script src="js/login.js" defer></script>
+    <link rel="stylesheet" href="styles/analise.css" />
+    <script src="js/analise.js" defer></script>
     <title>Upfour</title>
   </head>
   <body class='fadeIn'>
@@ -18,35 +18,35 @@
         <li><a href="/index.html">Como funciona</a></li>
         <li><a href="/cadastro.html">Cadastro</a></li>
       </ul>
+      <button id='button-header-logout' onclick="Logout()" class="login">Logout</button>
+
     </nav>
     <!-- <img src="img/emprestimo-negativado.jpg" class="section-img"> -->
-    <div id="login">
-        
-        <div id="area-de-login">
-            <div id='botao-login'>
+    <div id="analise">
+      <div id="area-de-analise">
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+          </tr>
+          <tr>
+            <td id="TDnome"></td>
+            <td id="TDemail"></td>
+            <td id="TDTelefone"></td>
+          </tr>
+        </table>
 
-                <input onclick="Logar()" class='botao-login' type="submit" value='entrar'></input>
-            </div>
-            
-            <form action="" id="form-de-login">
-          <div>
-            <label for="loginEmail"> email cadastrado:</label>
-         
-            <input
-              type="email"
-              placeholder="exemplo@email.com"
-              id="loginEmail"
-            />
-          </div>
-          <div>
-            <label for="senha">senha: </label>
-            
-            <input type="password" placeholder="********" id="senha" />
-          </div>
-         
-        </form>
-  
+        <div class="situacao">
+            <h1 id='h1Nome'></h1>
+            <p>Após contato da nossa equipe, os seus dados ainda estão em análise e em breve <br>divulgaremos nesta mesma página
+                se conseguimos disponibilizar o serviço solicitado. Aguente firme!<br><br>Falta só um pouco.
+            </p>
+            <br><br><br>
+            <h3>Conte conosco!</h3>
+        </div>
 
+        <div id='banner-situacao'>Em análise</div>
       </div>
     </div>
     <footer class="rodape">

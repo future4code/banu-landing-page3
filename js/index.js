@@ -11,5 +11,5 @@ function Logout(){
     document.getElementById("button-header").style.removeProperty('display')
     document.getElementById("button-header-logout").style.display = 'none'
     alert("Volte sempre!")
-
+    window.location.href = '/index.html'
 }
