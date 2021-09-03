@@ -5,46 +5,13 @@
 
 }
 
-<<<<<<< HEAD:index.css
-=======
-@-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; } 
-  }
-  @-moz-keyframes fadeIn {
-  0% { opacity: 0;}
-  100% { opacity: 1; }
-  }
-  @-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-  }
-  @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-  }
-
-.fadeIn {
-  -webkit-animation: fadeIn 1s ease-in-out;
-  -moz-animation: fadeIn 1s ease-in-out;
-  -o-animation: fadeIn 1s ease-in-out;
-  animation: fadeIn 1s ease-in-out;
-  }
-
-
->>>>>>> carlosVinicius:styles/index.css
 .cabecalho {
   font-size: 22px;
   padding: 20px 40px;
   text-transform: uppercase;
 }
-<<<<<<< HEAD:index.css
 
 .cabecalho, .rodape {
-=======
-.cabecalho,
-.rodape {
->>>>>>> carlosVinicius:styles/index.css
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -143,7 +110,6 @@ h2 {
 .section-img img {
   width: 100%;
   height: auto;
-<<<<<<< HEAD:index.css
 }
 
 .redesSociais {
@@ -162,6 +128,3 @@ h2 {
   height: 200px;
   padding: 20px 0px;
 }
-=======
-}
->>>>>>> carlosVinicius:styles/index.css
