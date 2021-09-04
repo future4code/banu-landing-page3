@@ -24,6 +24,8 @@
 
 }
 
+
+
 .rodape .blocoRodape {
   width: 33.3333%;
 
@@ -83,15 +85,20 @@
   
 }
 
+.ficafixocaralho {
+  width: 100%;
+  height: 100%;
+}
+
 .section-img {
   width: 100%;
   height: 100%;
+  filter: brightness(0.4);
   background:url(‘img/projeto9.jpg’);
 }
 
 .texto {
   position: absolute;
-  background-color: rgba(0,0,0,0.5);
   color:#fff;
   text-align: center;
   top: 77px;
@@ -104,6 +111,42 @@
   flex-direction: column;
   font-size: 25px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.caixaTexto {
+  margin: 2px 0px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #D2C3B0;
+  padding: 20px 60px;
+  /* margin: 10px; */
+  /* box-shadow: 5px 5px 20px darkgrey; */
+  /* border-radius: 20px; */
+  margin-bottom: 7px;
+}
+
+.item-texto {
+  color:black;
+  width: 100%;
+  line-height: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.item-texto .caixa {
+  width: 100%;
+}
+
+.imagemProjeto3 {
+  width: 100%;
+  height: 450px;
+  filter: brightness(0.9);  
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -130,4 +173,35 @@ h2 {
   width: auto;
   height: 200px;
   padding: 20px 0px;
+}
+
+@media (max-width: 1024px) {
+  .rodape, .cabecalho, .cabecalho .menu {
+    flex-direction: column;
+  }
+
+  .login {
+    width: 100%;
+  }
+
+  .cabecalho .menu li a{
+    padding: 0px;
+  }
+
+  .texto {
+    position: relative;
+    color: black;
+    top: 0px;
+    background-color: burlywood;
+    padding: 20px 0px;
+  }
+  
+  .rodape .blocoRodape {
+    width: 100%;
+  }
+
+  .imgEnd {
+    width: 100%;
+    height: auto;
+  }
 }
