@@ -74,3 +74,9 @@
   color: firebrick;
   display: none;
 }
+
+@media(max-width: 700px){
+  #area-de-login{
+    width: 80%;
+  }
+}
