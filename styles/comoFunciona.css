@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
 }
 
-body {
-  background-color: #fdf7f7;
-}
+body{
+background-color: darkgray;}
 
 h1 {
   color: white;
@@ -34,19 +35,50 @@ h3 {
   font-size: 50px;
   text-align: center;
 }
-.conteiner,
+.conteiner
 img {
   /* width: 100%; */
   border-radius: 20px;
 }
 
-main{
+main {
   height: 100vh;
 }
 
 footer {
   position: absolute;
   top: 290vh;
-  width: 100%;
+  width: 92%;
   height: 50px;
+}
+
+
+@media (max-width: 700px) {
+  .comoFunciona,
+  .conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .comoFunciona > h3{
+    margin-top: 10px;
+  }
+
+  .conteiner p {
+    display: block;
+  }
+
+  footer{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: inline-block;
+  }
+
 }
