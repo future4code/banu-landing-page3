@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <script src='js/index.js' defer></script>
+    
     <title>Upfour</title>
   </head>
-  <body>
+  <body class='fade-in'>
     <nav class="cabecalho">
       <img src="img/photo_2021-08-29_21-18-47.jpg" class="logo">
       <ul class="menu">
@@ -25,7 +28,7 @@
       <div class="ficafixocaralho">
         <img src="img/projeto14.jpg" class="section-img">
       </div>
-      <div class="texto">
+      <div class="texto" data-aos="fade-in">
         <p class="justificarTexto">Você precisa de Empréstimo?</p>
         <br>
         <h2 class="justificarTexto">A UpFour tem a solução para você!</h2>
@@ -34,7 +37,7 @@
         <p></p>
         <br>
       </div>   
-      <div class="item-texto">        
+      <div class="item-texto" data-aos="fade-in" data-aos-duration="1000">        
         <div class="caixaTexto">
           <p class="img2">Conte também com nosso time de Orientação Financeira!</p>
           <p class="img2">Sua conquista para melhorar de vida começa agora, com planos mensais a partir de R$ 99,90.</p>    
@@ -42,10 +45,10 @@
           <p class="img2">A primeira consultoria Grátis!</p>
         </div>
       </div>
-        <div class="imagemProjeto3"> 
+        <div class="imagemProjeto3" data-aos="fade-in" data-aos-duration="1000"> 
           <img src="img/projeto22.jpg" class="imagemProjeto3"> 
         </div>
-      <div class="item-texto">        
+      <div class="item-texto" data-aos="fade-in">        
         <div class="caixaTexto">
           <h3 class="img2">Venha e conheça nossos Serviços!</h3>
           <br>
@@ -57,11 +60,11 @@
     <footer class="rodape">
       <div class="blocoRodape">
         <p class="tituloRodape">Redes Sociais</p>
-        <img src="img/whats logo.png" class="redesSociais">
-        <img src="img/Linkedin logo.png" class="redesSociais">
-        <img src="img/twitter logo.png" class="redesSociais">
-        <img src="img/insta logo.png" class="redesSociais">
-        <img src="img/facebook logo.png" class="redesSociais">
+        <a href="https://whatsapp.com" target="_blank"><img src="img/whats logo.png" class="redesSociais"></a>
+        <a href="https://linkedin.com" target="_blank"><img src="img/Linkedin logo.png" class="redesSociais"></a>
+        <a href="https://twitter.com" target="_blank"><img src="img/twitter logo.png" class="redesSociais"></a>
+        <a href="https://instagram.com" target="_blank"><img src="img/insta logo.png" class="redesSociais"></a>
+        <a href="https://fb.com" target="_blank"><img src="img/facebook logo.png" class="redesSociais"></a>
       </div>
       <div class="blocoRodape">
         <p class="tituloRodape">Atendimento</p>
@@ -78,5 +81,9 @@
         <img src="img/endereço.jpg" class="imgEnd">
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
