@@ -9,7 +9,7 @@ QUEM SOMOS
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/banu-landing-page3-master/img/projeto.49.jpg");  /*  COLOCAR FOTO*/
+    background: url("/img/projeto.49.jpg");  /*  COLOCAR FOTO*/
     background-size: cover;
   
   }
