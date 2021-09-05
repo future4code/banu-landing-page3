@@ -25,7 +25,7 @@ function Cadastrar() {
   localStorage.setItem(`nome`, nome);
   localStorage.setItem(`telefone`, telefone);
 
-  const seedPassword = new Uint8Array(3);
+  const seedPassword = new Uint8Array(2);
   let generatePass = window.crypto
     .getRandomValues(seedPassword)
     .join("")
