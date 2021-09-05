@@ -56,4 +56,4 @@ O Footer, como dito anteriormente, dispões das informações de contato, endere
 * Geração de senha
 * Bloqueio da página de análise para usuários não logados
 # Link
-[upfour.com.br](fanatical-market.surge.sh)
+[upfour.com.br](http://fanatical-market.surge.sh)
