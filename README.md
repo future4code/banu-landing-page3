@@ -18,7 +18,7 @@ Onde será apresentado à empresa através de uma tela limpa e convidativa. Com 
 
 Uma breve história da empresa passando a sua missão num texto curto e direto ao ponto, com um link de convite ao cadastro.
 
-![página Quem Somos](https://i.ibb.co/vHjX0DC/quem-Somos-header.png)
+![página Quem Somos](https://i.ibb.co/2qGgVsG/quem-Somos-header.png)
 
 
 ## Como Funciona
