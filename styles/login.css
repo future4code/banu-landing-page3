@@ -1,0 +1,82 @@
+#login {
+  height: 70vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-image: url("/img/projeto27.jpeg");
+  background-size: cover;
+}
+
+#area-de-login {
+  width: 40%;
+  /* height: 70%; */
+  padding: 70px 0;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: ivory;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+
+#area-de-login div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+
+#area-de-login input {
+  width: 60%;
+  text-align: center;
+  outline-style: inherit;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#botao-login {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.botao-login {
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1f1f24;
+  color: white;
+  display: block;
+  align-self: flex-start;
+}
+
+.botao-login:hover {
+  background-color: #d2c2b0;
+  color: black;
+  transition: 0.3s;
+}
+
+.botao-login:active {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.swing
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+#erro-login{
+  text-align: center;
+  color: firebrick;
+  display: none;
+}
+
+@media(max-width: 700px){
+  #area-de-login{
+    width: 80%;
+  }
+}

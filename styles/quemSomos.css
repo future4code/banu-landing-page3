@@ -1,0 +1,44 @@
+/************
+
+QUEM SOMOS
+
+ *************/
+ #quemSomos{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/img/projeto.49.jpg");  /*  COLOCAR FOTO*/
+    background-size: cover;
+  
+  }
+  .quemSomosConteudo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #1f1f241f;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+    background-color: white;
+  }
+  
+  #quemSomosConteudo> div {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+  }
+  .fade-in {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+  }
+  
+  

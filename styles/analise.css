@@ -1,0 +1,47 @@
+#analise {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/projeto32.jpg");
+  background-size: cover;
+}
+
+#area-de-analise {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 70%;
+  padding: 40px 60px;
+  box-shadow: 5px 5px 5px yellow;
+  border-end-end-radius: 20px;
+  border-start-start-radius: 20px;
+  background-color: white;
+}
+
+#banner-situacao{
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(138,255,0,1) 100%);
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table{
+    width: 60%;
+}
+
+#h1Nome {
+    padding-bottom: 30px;
+}
+
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
